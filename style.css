@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.cards {
+    float:left;
+    width: 25%;
+}
+.clear{
+    clear:both;
+}
 header{
     background-color: blue;
     margin:0;
@@ -13,4 +24,20 @@ nav ul li{
     padding:10px 0px 10px 40px;
     margin: 20px 5px 20px 90px;
     background-color: red;
+}
+nav ul li a:hover{
+    background-color:black;
+    color:white;
+}
+footer {
+    box-sizing:content-box;
+}
+.column {
+    float:left;
+    width: 25%;
+    font-size:xx-large;
+}
+.relative
+{
+    position:relative;
 }
