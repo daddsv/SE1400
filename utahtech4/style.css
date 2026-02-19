@@ -112,8 +112,7 @@ nav ul{
     margin:0px;
     padding: 0;
     display: flex;
-    flex-flow:row;
-    flex-wrap:nowrap;
+    flex-flow:row nowrap;
     list-style-type: none;
 }
 nav ul li{
