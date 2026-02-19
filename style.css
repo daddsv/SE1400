@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-}
 
-.cards {
-    float:left;
-    width: 25%;
-}
 .clear{
     clear:both;
 }
@@ -40,4 +33,9 @@ footer {
 .relative
 {
     position:relative;
+}
+.cards {
+    position:relative;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
