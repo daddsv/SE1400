@@ -51,7 +51,7 @@ footer {
     font-style: italic;
     text-align: center;
     padding:1rem;
-    grid-row:5/6;
+    grid-row:6;
     grid-column:2/8;
 }
 #wrapper {
@@ -98,6 +98,7 @@ nav a {
 main{
     grid-row:5/6;
     grid-column:2/8;
+    background-color: #FFFFFF;
 }
 header a{
     color:#FFFFFF;
