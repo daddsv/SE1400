@@ -142,7 +142,8 @@ h3{
     margin:.75rem, 0 .25rem 0 ;
 }
 #text p{
-    font-size:20px;
+    width:minmax(500px, auto);
+    font-size:26px;
     margin: 0px 0 5px;
 }
 .box {
