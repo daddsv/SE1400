@@ -62,7 +62,7 @@ footer {
 h3{color:#003058;}
 main{padding: 0 2rem;}
 #homehero{
-    background-image: url(./Images/homehero.jpg);
+    background-image: url(./images/homehero.jpg);
     height:300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ main{padding: 0 2rem;}
     grid-column:2/8;
 }
 #studenthero{
-    background-image: url(./Images/studenthero.jpg);
+    background-image: url(./images/studenthero.jpg);
     height:300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ main{padding: 0 2rem;}
     grid-column:2/8;
 }
 #facultyhero{
-    background-image: url(./Images/facultyhero.jpg);
+    background-image: url(./images/facultyhero.jpg);
     height:300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,14 +150,14 @@ input:focus, textarea:focus{
 }
 label{
     padding:10px;
-    text-align: right; /*fix*/
+    text-align: right; 
 }
 #mySubmit {
     width:10rem;
     grid-column:2/3;
 }
 #alumnihero{
-    background-image: url(./Images/alumnihero.jpg);
+    background-image: url(./images/alumnihero.jpg);
     height:300px;
     background-size: cover;
     background-repeat: no-repeat;
