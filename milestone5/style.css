@@ -275,4 +275,21 @@ footer ul li{
         height:auto;
         overflow:hidden;
     }
+    header{
+        position:static;
+    }
+}
+@media screen and (max-width:950px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        height:55px;
+    }
+    #text h3{
+        font-size:28px;
+    }
+    #text p{
+      font-size:23px;  
+    }
 }
