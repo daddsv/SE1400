@@ -17,6 +17,7 @@ nav ul li{
     padding:10px 0px 10px 40px;
     margin: 20px 5px 20px 90px;
     background-color: red;
+    position:relative;
 }
 nav ul li a:hover{
     background-color:black;
@@ -51,4 +52,13 @@ table{width:80%;}
 th{background-color:#ccc}
 tr:nth-of-type(2n + 1){
     background-color:#eee;
+}
+nav ul li ul{
+    flex-direction:column;
+    position: absolute;
+    width:100%;
+    display:none;
+}
+nav ul li:hover ul{
+    display:flex;
 }
