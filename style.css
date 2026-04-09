@@ -62,3 +62,9 @@ nav ul li ul{
 nav ul li:hover ul{
     display:flex;
 }
+#hidden{
+    visibility:visible;
+}
+#canvas{
+    border:#000 1px solid;
+}
