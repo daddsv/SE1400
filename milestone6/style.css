@@ -259,12 +259,12 @@ footer ul li{
     flex-direction:column;
 }
 #Ch1{
-    margin: 0px 20px 0px 0;
+    margin: 0px 20px 0px 20px;
     grid-row:1/2;
 }
 #Cmain{
     grid-column:1/-1;
-    height: 600px;
+    height: 450px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 50px 50px 300px 50px ;
@@ -285,20 +285,23 @@ footer ul li{
 #Ccontact input, #Ccontact label{
     margin:0;
 }
+#Ccontact input, #Cname input{
+    margin: 0 0 20px;
+}
 #Cinfo{
     margin:0px;
     text-align:left;
 }
-#touch ul{
+#Cinfo ul{
     margin: 0 200px 0 0;
     list-style-type:none;
 }
-#touch ul li a{
+#Cinfo ul li a{
     text-decoration:none;
     color:#2600ff;
     font-size:18px;
 }
-#touch ul li{
+#Cinfo ul li{
     padding: 2px 0px;
     font-size:20px;
 }
@@ -331,12 +334,12 @@ textarea{
 #Ccontact input[type="submit"]{
     width:150px;
     text-align:left;
-    margin: 10px 0px 10px auto;
+    margin: 10px 5px 10px auto;
 }
 #Cinfo ul{
     text-align:left;
     padding:0;
-    margin:20px;
+    margin:50px 0;
 }
 #Cinfo{
     position:relative;
@@ -351,13 +354,14 @@ textarea{
 }
 #Chi1, #cp, #cp2, #Cinfo{
     grid-column:1/2;
+    margin:0 20px;
 }
 #Cinfo{
     margin:20px;
 }
 #cp2{
     font-size:20px;
-    width:90%
+    width:90%;
 }
 @media screen and (max-width:1150px){
     #boxes{
