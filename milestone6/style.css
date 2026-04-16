@@ -140,10 +140,12 @@ nav a{
     background-image:url(images/github.png);
 }
 #hero h1{
+    margin:10px;
     text-align: center;
 }
 #hero h2{
     text-align: center;
+    margin:0 auto 10px;
 }
 h3{
     font-size: 35px;
@@ -312,6 +314,7 @@ footer ul li{
 #cp{
     margin: 0 20px 50px 0;
     font-size:25px;
+    text-wrap:nowrap;
 }
 #cname{
     width:400px;

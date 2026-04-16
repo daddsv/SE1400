@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Utah Tech University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="bluebar"></div>
+        <div id="greybar"></div>
+        <header>
+        <a href="index.html"><h1>Utah Tech University</h1></a>
+        </header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="alumni.html">Alumni</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+        </nav>
+        <div id="alumnihero"></div>
+        <main>
+            <h2>Join Alumni Mailing List</h2>
+            <h3>Request Alimni Newsletter</h3>
+            <p>Required information is marked with an asterisk (*).</p>
+            <form method="post" onsubmit="return validateForm();" action="https://kearl.net/se1400/mail.php">
+                <label for="fname">First Name:</label><input type="text" name="myFNname" id="fname" >
+                <label for="lname">Last Name:</label><input type="text" name="myLNname" id="lname" >
+                <label for="email">* E-mail: </label> <input type="text" name="myEmail" id="email" >
+                <label for="phone">Phone: </label> <input type="tel" name="myPhone" id="phone">
+                <label for="date">Graduation Date:</label> <input type="date" name="myDate" id="date">
+                <label for="comments">Comments:</label> <textarea id="comments" name="myComments" rows="2" cols="20" ></textarea>
+                <input type="submit" name="submit" id="mySubmit" value="Submit">
+            </form>
+        </main>
+        <script> 
+        function validateForm() {
+            if (document.forms[0].myEmail.value == "" ) {
+                alert("Please enter an e-mail address.");
+                return false;
+            } // end if
+            return true;
+        } // end function validateForm
+        </script>
+        <footer>
+            Copyright &copy; 2025 Utah Tech University<br>
+            <a href="mailto:d00538964@utahtech.edu">d00538964@utahtech.edu</a>
+        </footer>
+    </div>
+</body>
+</html>
