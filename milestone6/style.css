@@ -270,7 +270,7 @@ footer ul li{
     grid-template-rows: 50px 50px 50px 300px 50px ;
     flex-direction:column;
     margin:auto auto;
-    width:80%;
+    width:65%;
 }
 #Ccontact form{
     display: flex;
@@ -351,6 +351,7 @@ textarea{
     grid-column:2/3;
     grid-row:3/-2;
     display:flex;
+    margin: 0px 40px 0 0;
 }
 #Chi1, #cp, #cp2, #Cinfo{
     grid-column:1/2;
@@ -398,6 +399,9 @@ textarea{
     header{
         position:static;
     }
+    #Cmain{
+        width:80%;
+    }
 }
 @media screen and (max-width:950px){
     nav ul{
@@ -422,6 +426,9 @@ textarea{
     nav a{
         text-align: right;
         width:100%;
+    }
+    Cmain{
+        width:90%;
     }
 }
 @media screen and (max-width:650px)
