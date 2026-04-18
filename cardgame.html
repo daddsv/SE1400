@@ -14,7 +14,15 @@
         </header>
         <nav>
             <ul>
-                <li><a href="index.html">asdfasdfasdf</a> &nbsp;</li>
+                <li><a href="index.html">asdfasdfasdf</a> &nbsp;
+                    <ul>
+                        <li><a href="">Poker</a></li>
+                        <li><a href="">Monopoly</a></li>
+                        <li><a href="">uno</a></li>
+                        <li><a href="">chess</a></li>
+                        <li><a href="">checkers</a></li>
+                    </ul>
+                </li>
                 <li><a href="students.html">asdfsadfasdf</a> &nbsp; </li>
                 <li><a href="faculty.html">asdfasdfasdf</a> &nbsp; </li>
                 <li><a href="form.html">asdfasdfasdfasdf</a> </li>
@@ -66,6 +74,10 @@
                         <td colspan="2">old</td>
                     </tr>
                 </tbody>
+            <button type="button" onclick="change()"> click me </button>
+            <p id="text1"></p>
+            <button type="button" onclick="changecolor()"> click me </button>
+            <button id="hidden" type="button" onclick="document.getElementById('hidden').style.visibility='hidden'"> click me </button>
             </table>
             <div class="clear"></div>
                 <p>1</p>
@@ -75,9 +87,39 @@
                 <p>5</p>
             </ul>
         </main>
+        <canvas width="100px" height="100px" id="canvas"></canvas>
         <footer>
             fdsasdafdfsadfs
         </footer>
     </div>
+    <script>
+        function change()
+        {
+            document.getElementById("text1").innerHTML = "testtest";
+        }
+        function changecolor()
+        {
+            document.getElementById("text1").style.color = "red";
+        }
+        function changeimage()
+        {
+            var image = document.getElementById("text1").style.backgroundImage
+            if (image == "none"){
+                image.style.backgroundImage = "url(images/cards.jpeg)";
+            }
+            else
+            {
+                image.style.backgroundImage = "none";
+            }
+        }
+        var c = document.getElementById("canvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(100,100);
+        ctx.lineTo(100,0);
+        ctx.lineTo(0,100);
+        ctx.lineTo(150,100);
+        ctx.stroke();
+    </script>
 </body>
 </html>
