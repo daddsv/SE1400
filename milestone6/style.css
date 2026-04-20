@@ -113,7 +113,7 @@ nav a{
     background-color: black;
     border-radius: 50%;
     margin: 0 auto;
-    background-image:url(images/pexels-glassesshop-gs-1317359316-27759898.jpg);
+    background-image:url(images/glasses.png);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -244,13 +244,13 @@ footer ul li{
     margin: 20px 0 0px;
 }
 #apple1{
-    background-image:url(images/pexels-cenali-2487443.jpg)
+    background-image:url(images/george.jpg)
 }
 #apple2{
-    background-image:url(images/pexels-mareefe-672101.jpg)
+    background-image:url(images/math.png)
 }
 #apple3{
-    background-image:url(images/pexels-rynocerontem-2966150.jpg)
+    background-image:url(images/goals.jpg)
 }
 
 
@@ -416,12 +416,15 @@ textarea{
     .box h4{
         grid-column:2/3;
         grid-row:1/2;
+        margin: 20px 5px;
+
     }
     .box p{
         grid-column:2/3;
         grid-row:2/4;
         height:auto;
         overflow:hidden;
+        margin: 50px 5px;
     }
     header{
         position:static;
