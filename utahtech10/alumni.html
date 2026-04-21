@@ -6,6 +6,15 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script> 
+    function validateForm() {
+        if (document.forms[0].myEmail.value == "" ) {
+            alert("Please enter an e-mail address.");
+            return false;
+        } // end if
+        return true;
+    } // end function validateForm
+    </script>
 </head>
 <body>
     <div id="wrapper">
@@ -38,15 +47,7 @@
                 <input type="submit" name="submit" id="mySubmit" value="Submit">
             </form>
         </main>
-        <script> 
-        function validateForm() {
-            if (document.forms[0].myEmail.value == "" ) {
-                alert("Please enter an e-mail address.");
-                return false;
-            } // end if
-            return true;
-        } // end function validateForm
-        </script>
+        
         <footer>
             Copyright &copy; 2025 Utah Tech University<br>
             <a href="mailto:d00538964@utahtech.edu">d00538964@utahtech.edu</a>
